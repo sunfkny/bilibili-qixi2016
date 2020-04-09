@@ -1,0 +1,185 @@
+.black-wrp {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10055;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0px;
+  display: table;
+  opacity: 0;
+}
+.black-wrp .float-box-wrp {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+.black-wrp .float-box-wrp .float-box {
+  margin: 0 auto;
+  background: #fff;
+  padding: 24px 20px;
+  width: 40%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.black-wrp .float-box-wrp .float-box .float-notice-title {
+  font-size: 1rem;
+  line-height: 1.875rem;
+}
+.black-wrp .float-box-wrp .float-box .float-notice-content {
+  font-size: .8rem;
+  color: #999;
+  margin-bottom: 20px;
+}
+.black-wrp .float-box-wrp .float-box .float-notice-options {
+  padding: 0 1%;
+}
+.black-wrp .float-box-wrp .float-box .float-notice-options .options-btn {
+  box-sizing: border-box;
+  width: 40%;
+  color: #333;
+  line-height: 2.25rem;
+  font-size: .8rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0 3%;
+  border: 1px solid #ddd;
+}
+.black-wrp .float-box-wrp .float-box .float-notice-options .options-btn.float-notice-download {
+  color: #fff;
+  border-color: #de698c;
+  background-color: #de698c;
+}
+.black-wrp .share-box {
+  position: absolute;
+  bottom: -100%;
+  background: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 10px;
+}
+.black-wrp .share-box .share-box-list {
+  text-align: center;
+}
+.black-wrp .share-box .share-box-item {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1px;
+  text-decoration: none;
+  outline: none;
+  float: none;
+}
+.black-wrp .share-box .share-box-item div {
+  color: #333;
+  font-size: 0.8rem;
+  line-height: 1.875rem;
+}
+.black-wrp .share-box .share-box-title {
+  font-size: 1rem;
+  line-height: 40px;
+  text-align: center;
+}
+.black-wrp .share-box .share-box-content {
+  font-size: .8rem;
+  color: #999;
+  text-align: center;
+}
+.black-wrp .share-box .share-box-cancel {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  line-height: 2.5rem;
+  color: #999;
+  font-size: .8rem;
+  text-align: center;
+  margin-top: 10px;
+}
+.black-wrp .share-box.wx {
+  background: rgba(0, 0, 0, 0.5) url(../img/wx_guide.png) top center no-repeat;
+  background-size: 100% 100%;
+}
+.black-wrp .share-box.weibo {
+  background: rgba(0, 0, 0, 0.5) url(../img/weibo_guide.png) top center no-repeat;
+  background-size: 100% 100%;
+}
+.black-wrp .share-box.appl {
+  background: rgba(0, 0, 0, 0.5) url(../img/app_guide.png) top center no-repeat;
+  background-size: 100% 100%;
+}
+.black-wrp.wx {
+  background: rgba(0, 0, 0, 0.5) url(../img/wx_guide.png) top center no-repeat;
+  background-size: contain;
+}
+.icons {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../img/ui_2.png) center no-repeat;
+  background-size: 400px;
+}
+.icons.icons-safari {
+  width: 40px;
+  height: 40px;
+  background-position: -5px -473px;
+  margin: 0 5px;
+}
+.icons.icons-weibo {
+  width: 60px;
+  height: 60px;
+  background-position: 0px 0px;
+  background-size: 360px;
+}
+.icons.icons-wx {
+  width: 60px;
+  height: 60px;
+  background-position: 0px -60px;
+  background-size: 360px;
+}
+.icons.icons-pyq {
+  width: 60px;
+  height: 60px;
+  background-position: 0px -120px;
+  background-size: 360px;
+}
+.icons.icons-qq {
+  width: 60px;
+  height: 60px;
+  background-position: 0px -180px;
+  background-size: 360px;
+}
+.icons.icons-qzone {
+  width: 60px;
+  height: 60px;
+  background-position: 0px -240px;
+  background-size: 360px;
+}
+.icons.icons-tieba {
+  width: 60px;
+  height: 60px;
+  background-position: 0px -300px;
+  background-size: 360px;
+}
+.icons.icons-other {
+  width: 60px;
+  height: 60px;
+  background-position: 0px -360px;
+  background-size: 360px;
+}
+.clearfix {
+  _zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@media screen and (orientation: landscape) {
+  .black-wrp.wx {
+    background-position: 100% 0;
+    background-size: contain;
+  }
+}
