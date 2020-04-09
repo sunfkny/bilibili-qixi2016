@@ -4,6 +4,6 @@ Backup and bugfix version of [Bilibili七夕之约](https://www.bilibili.com/htm
 
 [play online](https://sunfkny.github.io/bilibili-qixi2016/)
 
-## [Coding分流](https://sunfkny.coding.net/p/bilibili-qixi2016/d/bilibili-qixi2016/git)
+## [Gitee分流](https://gitee.com/sunfkny/bilibili-qixi2016)
 
-[在线游玩](http://cnc53a.coding-pages.com/)
+[在线游玩](https://sunfkny.gitee.io/bilibili-qixi2016/)
